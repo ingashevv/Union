@@ -1,7 +1,9 @@
 /* font-family: 'Manrope', sans-serif;
 font-family: 'Roboto', sans-serif; */
+
 body {
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
 
 .header {
@@ -275,6 +277,7 @@ body {
 
 .about__inner {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .about__info {
@@ -328,4 +331,130 @@ body {
     line-height: 19px;
     color: #FFFFFF;
     cursor: pointer;
+}
+
+.suppliers__inner {
+    margin-bottom: 150px;
+}
+
+.suppliers__title {
+    width: 817px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #272639;
+    margin-left: 191px;
+}
+
+.suppliers__text {
+    width: 613px;
+    height: 17px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17px;
+    color: #000000;
+    margin-left: 293px;
+    margin-top: 28px;
+    margin-bottom: 70px;
+}
+
+.suppliers__slider {
+    overflow: hidden;
+    max-width: 1200px;
+}
+
+.suppliers__slider ul li {
+    list-style: none;
+    display: flex;
+}
+
+.transport {
+    background-image: url(../images/transport-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 661px;
+    width: 1925px;
+    margin-left: -30px;
+}
+
+.transport__inner {
+    margin-bottom: 150px;
+}
+
+.transport__title {
+    width: 645px;
+    height: 118px;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 59px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 147px;
+    padding-bottom: 18px;
+}
+
+.transport__text {
+    width: 610px;
+    height: 70px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.transport__btn button {
+    width: 252px;
+    height: 66px;
+    background: #FF6B00;
+    border-radius: 5px;
+    border: none;
+    margin-top: 38px;
+}
+
+.transport__btn span {
+    width: 173px;
+    height: 19px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.slick-track {
+    width: 1920px;
+    opacity: 1;
+    transform: 0;
+    display: flex;
+}
+
+.slick-prev {
+    display: flex;
+}
+
+.slide2 {
+    width: 130px;
+    height: 35px;
+}
+
+.slide3 {
+    width: 129px;
+    height: 42px;
+}
+
+.slide4 {
+    width: 130px;
+    height: 78px;
+}
+
+.slide5 {
+    width: 129px;
+    height: 17px;
+}
+
+.slide6 {
+    width: 137px;
+    height: 42px;
 }
