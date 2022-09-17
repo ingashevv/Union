@@ -228,3 +228,41 @@ body {
     color: #FFFFFF;
 
 }
+
+.service__inner {
+    margin-top: 177px;
+    margin-bottom: 146px;
+}
+
+.service__box ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service__box ul li span {
+    display: block;
+    text-align: center;
+    width: 231px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+}
+.service__box ul li img{
+    margin-left: 75px;
+}
+
+.service__box ul li {
+    list-style: none;
+}
+.service__inner-title{
+width: 567px;
+height: 62px;
+font-weight: 700;
+font-size: 42px;
+text-align: center;
+text-transform: uppercase;
+color: #272639;
+margin-left: 318px;
+margin-bottom: 100px;
+}
