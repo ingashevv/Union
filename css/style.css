@@ -378,6 +378,7 @@ body {
     height: 661px;
     width: 1925px;
     margin-left: -30px;
+    margin-bottom: 150px;
 }
 
 .transport__inner {
@@ -457,4 +458,139 @@ body {
 .slide6 {
     width: 137px;
     height: 42px;
+}
+
+.footer {
+    background-color: #3A394A;
+    width: 1903px;
+    margin-left: -8px;
+}
+
+.footer__content {
+    display: flex;
+}
+
+.footer__logo {
+    padding-top: 88px;
+    width: 302px;
+    height: 36px;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.footer__menu-title {
+    width: 48px;
+    height: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin-left: 180px;
+    margin-top: 88px;
+}
+
+.footer__menu-list li {
+    list-style: none;
+    height: 35px;
+}
+
+.footer__menu-list li a {
+    text-decoration: none;
+    width: 113px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #CCCCD5;
+}
+
+.footer__menu-list ul {
+    margin-left: 140px;
+}
+
+.footer__contacts {
+    margin-top: 88px;
+    margin-left: 132px;
+}
+
+.footer__contacts-title {
+    width: 80px;
+    height: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    color: #FFFFFF;
+
+}
+
+.footer__contacts-street {
+    width: 199px;
+    height: 51px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #CCCCD5;
+    margin-top: 17px;
+}
+
+.footer__contacts-phone {
+    width: 109px;
+    height: 13px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 13px;
+    color: #CCCCD5;
+    margin-top: 30px;
+}
+
+.footer__contacts-email {
+    width: 172px;
+    height: 13px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 13px;
+    color: #CCCCD5;
+    margin-top: 24px;
+}
+
+.footer__social {
+    margin-top: 88px;
+}
+
+.footer__social-title {
+    width: 122px;
+    height: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.footer__social-link {
+    width: 40px;
+    height: 40px;
+    background-color: #3A394A;
+    border: 1px solid #797983;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 15px;
+}
+
+.footer__social-link img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.footer__end {
+    margin-top: 31px;
+    width: 322px;
+    height: 13px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 13px;
+    color: #FFFFFF;
+    margin-left: 450px;
+    padding-bottom: 35px;
 }
