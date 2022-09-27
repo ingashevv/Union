@@ -32,6 +32,11 @@ body {
     margin-left: 0;
 }
 
+.header__logo a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
 .header__first {
     display: flex;
     position: relative;
@@ -745,8 +750,9 @@ body {
     display: flex;
     position: relative;
 }
+
 .contacts__info-phone span,
-.contacts__info-email span{
+.contacts__info-email span {
     position: absolute;
     left: 49px;
     top: 4px;
@@ -928,7 +934,44 @@ body {
 .basket__price {
     display: flex;
     margin-top: 47px;
-    margin-bottom: 19px;
+    margin-bottom: -10px;
+}
+
+.basket__info {
+    position: relative;
+}
+
+.total__basket-price {
+    display: flex;
+    position: absolute;
+    right: 0;
+}
+
+.total__basket-price p {
+    width: 61px;
+    height: 17px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17px;
+    text-align: right;
+    color: #696969;
+    position: absolute;
+    right: 160px;
+    top: 4px;
+}
+
+.total__basket-price span {
+    width: 167px;
+    height: 23px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 23px;
+    text-align: right;
+    color: #000000;
+    position: absolute;
+    right: 0px;
+    top: 15px;
+
 }
 
 .basket__info li {
@@ -947,6 +990,10 @@ body {
     color: #000000;
     padding-top: 37px;
     margin-right: 89px;
+}
+.basket__info-name div{
+    display: flex;
+    position: relative;
 }
 
 .basket__info-name p {
@@ -967,7 +1014,9 @@ body {
     line-height: 13px;
     text-align: right;
     color: #000000;
-
+    position: absolute;
+    top: 14px;
+    left: 55px;
 }
 
 .basket__info img {
@@ -1051,6 +1100,7 @@ body {
     border-radius: 5px;
     border: none;
     margin-top: 23px;
+    cursor: pointer;
 }
 
 .basket__form button span {
@@ -1061,6 +1111,10 @@ body {
     line-height: 15px;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+
+li .total__basket-price {
+    display: flex;
 }
 
 .header__order .media__menu {
