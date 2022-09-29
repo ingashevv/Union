@@ -1423,6 +1423,50 @@ li .total__basket-price {
 }
 
 @media (max-width: 1200px) {
+    .contacts__info-map {
+        margin-left: 20px;
+    }
+
+    .contacts__form {
+        margin-left: 220px;
+    }
+
+    .contacts__info-social {
+        margin-left: 100px;
+    }
+
+    .contacts__info-message {
+        margin-left: 200px;
+        margin-top: 0;
+    }
+
+    .contacts__info-map span {
+        width: 165px;
+    }
+
+    .contacts__info-phone span,
+    .contacts__info-email span {
+        width: 120px;
+    }
+
+    .contacts__info-email {
+        margin-top: 0px;
+        margin-left: 135px;
+    }
+
+    .contacts__info-phone {
+        margin-top: 0px;
+        margin-left: 50px;
+    }
+
+    .contacts__info {
+        display: flex;
+    }
+
+    .contacts__box {
+        display: block;
+    }
+
     .footer__content::before {
         width: 1100px;
         left: 10px;
@@ -1488,6 +1532,34 @@ li .total__basket-price {
 }
 
 @media (max-width: 1100px) {
+    .contacts__form {
+        margin-left: 170px;
+    }
+
+    .contacts__info-social {
+        margin-left: 20px;
+        margin-bottom: 50px;
+    }
+
+    .contacts__info-message {
+        margin-left: 20px;
+        margin-top: 100px;
+    }
+
+    .contacts__info-email {
+        margin-top: -17px;
+        margin-left: 650px;
+    }
+
+    .contacts__info-phone {
+        margin-top: -60px;
+        margin-left: 350px;
+    }
+
+    .contacts__info {
+        display: block;
+    }
+
     .footer__content::before {
         width: 990px;
     }
@@ -1552,6 +1624,10 @@ li .total__basket-price {
 }
 
 @media (max-width: 1000px) {
+    .contacts__form {
+        margin-left: 110px;
+    }
+
     .footer__logo {
         padding-top: 40px;
         margin-left: 330px;
@@ -1612,6 +1688,18 @@ li .total__basket-price {
 }
 
 @media (max-width: 900px) {
+    .contacts__info-email {
+        margin-left: 600px;
+    }
+
+    .contacts__info-phone {
+        margin-left: 330px;
+    }
+
+    .contacts__form {
+        margin-left: 60px;
+    }
+
     .footer__content::before {
         width: 770px;
     }
@@ -1655,6 +1743,32 @@ li .total__basket-price {
 }
 
 @media (max-width: 850px) {
+
+    .contacts__info-social {
+        margin-top: -137px;
+        margin-left: 550px;
+        margin-bottom: 130px;
+    }
+
+    .contacts__info-message {
+        margin-left: 320px;
+        margin-top: -150px;
+    }
+
+    .contacts__info-email {
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+
+    .contacts__info-phone {
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .contacts__form {
+        margin-left: 20px;
+    }
+
     .footer__content::before {
         width: 730px;
     }
@@ -1689,6 +1803,24 @@ li .total__basket-price {
 }
 
 @media (max-width: 800px) {
+    .contacts__form {
+        margin-left: 170px;
+    }
+
+    .contacts__form {
+        width: 410px;
+        height: 815px;
+    }
+
+    .contacts__form-end {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .contacts__form-box {
+        display: block;
+    }
+
     .footer__content::before {
         width: 690px;
     }
@@ -1757,6 +1889,21 @@ li .total__basket-price {
 }
 
 @media (max-width: 700px) {
+    .contacts__form {
+        margin-left: 130px;
+    }
+
+    .contacts__info-message {
+        margin-left: 20px;
+        margin-top: 60px;
+    }
+
+    .contacts__info-social {
+        margin-top: 60px;
+        margin-left: 20px;
+        margin-bottom: 80px;
+    }
+
     .footer__content::before {
         width: 600px;
     }
@@ -1852,6 +1999,10 @@ li .total__basket-price {
 }
 
 @media (max-width: 600px) {
+    .contacts__form {
+        margin-left: 75px;
+    }
+
     .footer__content::before {
         top: 460px;
     }
@@ -1916,6 +2067,15 @@ li .total__basket-price {
 }
 
 @media (max-width: 550px) {
+
+    .contacts__form {
+        margin-left: 20px;
+    }
+
+    .contacts__form {
+        margin-left: 50px;
+    }
+
     .footer__content::before {
         width: 440px;
     }
@@ -2002,6 +2162,28 @@ li .total__basket-price {
 }
 
 @media (max-width: 500px) {
+    .contacts__form-title {
+        padding-top: 25px;
+        padding-left: 15px;
+        margin-bottom: 80px;
+    }
+
+    .contacts__form-end input {
+        max-width: 285px;
+    }
+
+    .contacts__form {
+        width: 355px;
+    }
+
+    .contacts__form-box {
+        padding-left: 15px;
+    }
+
+    .contacts__form {
+        margin-left: 20px;
+    }
+
     .footer__content::before {
         width: 390px;
     }
@@ -2044,6 +2226,23 @@ li .total__basket-price {
 }
 
 @media (max-width: 450px) {
+    .contacts__form {
+        width: 325px;
+    }
+
+    .contacts__form-end button {
+        width: 300px;
+    }
+
+    .contacts__form-end input {
+        max-width: 260px;
+    }
+
+    .contacts__form-first input {
+        width: 260px;
+        padding-left: 30px;
+    }
+
     .footer__menu-title {
         margin-top: 50px;
     }
@@ -2118,6 +2317,30 @@ li .total__basket-price {
 }
 
 @media (max-width: 400px) {
+    .contacts__form {
+        margin-left: 0px;
+    }
+
+    .contacts__info-social {
+        margin-left: 0px;
+    }
+
+    .contacts__info-message {
+        margin-left: 0px;
+    }
+
+    .contacts__info-email {
+        margin-left: 0px;
+    }
+
+    .contacts__info-map {
+        margin-left: 0px;
+    }
+
+    .contacts__info-phone {
+        margin-left: 0px;
+    }
+
     .footer__content::before {
         width: 315px;
     }
@@ -2140,6 +2363,41 @@ li .total__basket-price {
 }
 
 @media (max-width: 360px) {
+    .contacts__form {
+        margin-left: 10px;
+    }
+
+    .contacts__form {
+        height: 780px;
+        width: 295px;
+    }
+
+    .contacts__form-end button {
+        width: 265px;
+    }
+
+    .contacts__form-end input {
+        height: 150px;
+        padding-left: 10px;
+    }
+
+    .contacts__form-first input {
+        width: 260px;
+        padding-left: 10px;
+    }
+
+    .contacts__form-end input {
+        max-width: 250px;
+    }
+
+    .contacts__form-title {
+        padding-left: 5px;
+        margin-bottom: 70px;
+    }
+
+    .contacts__form-box {
+        padding-left: 5px;
+    }
 
     .header__order .media__menu {
         margin-right: 0;
@@ -2583,77 +2841,6 @@ li .total__basket-price {
         display: block;
     }
 
-    .contacts {
-        margin-bottom: 350px;
-    }
-
-    .contacts .container {
-        width: 360px;
-    }
-
-    .contacts__inner {
-        width: 360px;
-    }
-
-    .contacts__form {
-        width: 330px;
-    }
-
-    .contacts__form-title {
-        padding-top: 40px;
-        padding-left: 85px;
-        margin-bottom: 60px;
-    }
-
-    .contacts__form-box div {
-        margin-top: 50px;
-    }
-
-    .contacts__message {
-        margin-left: -15px;
-        margin-top: 50px;
-    }
-
-    .contacts__form-end input {
-        padding-left: 35px;
-        margin-left: -15px;
-        max-width: 285px;
-    }
-
-    .contacts__form-end button {
-        margin-top: 20px;
-        margin-left: -15px;
-    }
-
-    .contacts__form-box {
-        padding-left: 0px;
-        display: block;
-    }
-
-    .contacts__info-social {
-        margin-left: 10px;
-    }
-
-    .contacts__info-message {
-        margin-left: 10px;
-    }
-
-    .contacts__info-map,
-    .contacts__info-phone,
-    .contacts__info-email {
-        margin-left: 10px;
-    }
-
-    .contacts__title {
-        margin-bottom: 50px;
-        margin-left: 75px;
-        margin-top: 30px;
-    }
-
-    .contacts__box {
-        display: block;
-    }
-
     .order__inner {
         margin-left: -170px;
     }
@@ -2761,17 +2948,24 @@ li .total__basket-price {
 }
 
 @media (max-width: 340px) {
+    .contacts__form {
+        margin-left: 0px;
+    }
+
     .footer__contacts-street {
         width: 160px;
         font-size: 14px;
     }
+
     .footer__content::before {
         width: 290px;
     }
+
     .footer__logo {
         padding-top: 35px;
         font-size: 28px;
     }
+
     .footer__contacts {
         margin-left: 150px;
     }
