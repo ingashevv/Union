@@ -1405,6 +1405,28 @@ li .total__basket-price {
 }
 
 @media (max-width: 1250px) {
+    .basket__info ul {
+        padding-left: 200px;
+    }
+
+    .basket__price {
+        margin-left: 210px;
+    }
+
+    .total__basket-price {
+        right: 465px;
+    }
+
+    .basket__form {
+        margin-left: 440px;
+        margin-top: 100px;
+    }
+
+    .basket__box {
+        margin-left: 0px;
+        display: block;
+    }
+
     .header__order .container {
         margin: 0px 0 0 5px;
     }
@@ -1494,6 +1516,22 @@ li .total__basket-price {
 }
 
 @media (max-width: 1150px) {
+    .total__basket-price {
+        right: 540px;
+    }
+
+    .basket__form {
+        margin-left: 360px;
+    }
+
+    .basket__price {
+        margin-left: 155px;
+    }
+
+    .basket__info ul {
+        padding-left: 150px;
+    }
+
     .footer__end {
         margin-left: 400px;
     }
@@ -1582,6 +1620,22 @@ li .total__basket-price {
 }
 
 @media (max-width: 1050px) {
+    .total__basket-price {
+        right: 580px;
+    }
+
+    .basket__form {
+        margin-left: 320px;
+    }
+
+    .basket__price {
+        margin-left: 120px;
+    }
+
+    .basket__info ul {
+        padding-left: 110px;
+    }
+
     .footer__social {
         margin-left: 20px;
     }
@@ -1624,6 +1678,22 @@ li .total__basket-price {
 }
 
 @media (max-width: 1000px) {
+    .total__basket-price {
+        right: 595px;
+    }
+
+    .basket__form {
+        margin-left: 300px;
+    }
+
+    .basket__price {
+        margin-left: 90px;
+    }
+
+    .basket__info ul {
+        padding-left: 80px;
+    }
+
     .contacts__form {
         margin-left: 110px;
     }
@@ -1678,6 +1748,23 @@ li .total__basket-price {
 }
 
 @media (max-width: 950px) {
+    .basket__form {
+        margin-left: 280px;
+        margin-top: 100px;
+    }
+
+    .total__basket-price {
+        right: 630px;
+    }
+
+    .basket__price {
+        margin-left: 70px;
+    }
+
+    .basket__info ul {
+        padding-left: 60px;
+    }
+
     .order__inner {
         margin-left: 20px;
     }
@@ -1688,6 +1775,22 @@ li .total__basket-price {
 }
 
 @media (max-width: 900px) {
+    .total__basket-price {
+        right: 645px;
+    }
+
+    .basket__form {
+        margin-left: 250px;
+    }
+
+    .basket__price {
+        margin-left: 45px;
+    }
+
+    .basket__info ul {
+        padding-left: 30px;
+    }
+
     .contacts__info-email {
         margin-left: 600px;
     }
@@ -1743,6 +1846,54 @@ li .total__basket-price {
 }
 
 @media (max-width: 850px) {
+    .basket__product {
+        margin-right: 325px;
+    }
+
+    .trash {
+        padding-top: 26px;
+    }
+
+    .basket__info-price,
+    .basket__info-total {
+        padding-top: 40px;
+    }
+
+    .basket__info li {
+        height: 100px;
+        width: 755px;
+    }
+
+    .basket__info-name {
+        padding-top: 20px;
+        margin-right: 70px;
+    }
+
+    .basket__info img {
+        height: 72px;
+        width: 83px;
+    }
+
+    .trash img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .basket__price {
+        margin-left: 15px;
+    }
+
+    .total__basket-price {
+        right: 675px;
+    }
+
+    .basket__form {
+        margin-left: 220px;
+    }
+
+    .basket__info ul {
+        padding-left: 5px;
+    }
 
     .contacts__info-social {
         margin-top: -137px;
@@ -1803,6 +1954,31 @@ li .total__basket-price {
 }
 
 @media (max-width: 800px) {
+    .basket__product {
+        margin-right: 260px;
+    }
+
+    .basket__info-price,
+    .basket__info-total {
+        width: 90px;
+    }
+
+    .basket__info li {
+        width: 700px;
+    }
+
+    .basket__info-name {
+        margin-right: 40px;
+    }
+
+    .total__basket-price {
+        right: 695px;
+    }
+
+    .basket__form {
+        margin-left: 200px;
+    }
+
     .contacts__form {
         margin-left: 170px;
     }
@@ -1851,6 +2027,32 @@ li .total__basket-price {
 }
 
 @media (max-width: 750px) {
+
+    .total__basket-price {
+        right: 725px;
+    }
+
+    .basket__form {
+        margin-left: 170px;
+    }
+
+    .basket__info li {
+        width: 635px;
+    }
+
+    .basket__info-total {
+        margin-right: 40px;
+    }
+
+    .basket__product {
+        margin-right: 235px;
+        margin-left: 20px;
+    }
+
+    .basket__info-name {
+        width: 140px;
+    }
+
     .footer__end {
         margin-left: 210px;
     }
@@ -1889,6 +2091,26 @@ li .total__basket-price {
 }
 
 @media (max-width: 700px) {
+    .basket__info li {
+        width: 595px;
+    }
+
+    .basket__info-total {
+        margin-right: 20px;
+    }
+
+    .basket__info-price {
+        margin-right: 25px;
+    }
+
+    .total__basket-price {
+        right: 745px;
+    }
+
+    .basket__form {
+        margin-left: 150px;
+    }
+
     .contacts__form {
         margin-left: 130px;
     }
@@ -1946,6 +2168,35 @@ li .total__basket-price {
 }
 
 @media (max-width: 650px) {
+    .basket__info-total {
+        font-size: 14px;
+    }
+
+    .basket__product {
+        margin-right: 205px;
+    }
+
+    .basket__info li {
+        width: 560px;
+    }
+
+    .basket__info-price {
+        margin-right: 15px;
+        font-size: 14px;
+    }
+
+    .basket__info-name {
+        margin-right: 20px;
+    }
+
+    .total__basket-price {
+        right: 775px;
+    }
+
+    .basket__form {
+        margin-left: 120px;
+    }
+
     .footer__content::before {
         width: 550px;
     }
@@ -1999,6 +2250,34 @@ li .total__basket-price {
 }
 
 @media (max-width: 600px) {
+    .basket__info li {
+        width: 520px;
+    }
+
+    .basket__price-name {
+        margin-right: 55px;
+    }
+
+    .basket__info-price {
+        margin-right: 5px;
+    }
+
+    .trash img {
+        padding-left: 0;
+    }
+
+    .basket__info-total {
+        margin-right: 0px;
+    }
+
+    .total__basket-price {
+        right: 805px;
+    }
+
+    .basket__form {
+        margin-left: 90px;
+    }
+
     .contacts__form {
         margin-left: 75px;
     }
@@ -2067,6 +2346,60 @@ li .total__basket-price {
 }
 
 @media (max-width: 550px) {
+    .total__basket-price {
+        right: 825px;
+    }
+
+    .basket__form {
+        margin-left: 70px;
+    }
+
+    .close {
+        display: block;
+        position: absolute;
+        left: 450px;
+        top: 0px;
+    }
+
+    .trash img {
+        display: none;
+    }
+
+    .basket__info-total {
+        margin-right: 0px;
+        position: absolute;
+        left: 400px;
+        top: 50px;
+    }
+
+    .basket__info-price {
+        width: 70px;
+        position: absolute;
+        left: 260px;
+        top: 50px;
+    }
+
+    .basket__info ul {
+        position: relative;
+    }
+
+    .basket__info-price {
+        width: 70px;
+    }
+
+    .basket__info-name span {
+        top: 36px;
+        left: -10px;
+    }
+
+    .basket__info li {
+        height: 115px;
+        width: 490px;
+    }
+
+    .basket__price {
+        display: none;
+    }
 
     .contacts__form {
         margin-left: 20px;
@@ -2141,6 +2474,30 @@ li .total__basket-price {
 }
 
 @media (max-width: 530px) {
+    .total__basket-price {
+        right: 840px;
+    }
+
+    .basket__form {
+        margin-left: 55px;
+    }
+
+    .close {
+        left: 420px;
+    }
+
+    .basket__info li {
+        width: 460px;
+    }
+
+    .basket__info-total {
+        left: 380px;
+    }
+
+    .basket__info-price {
+        left: 250px;
+    }
+
     .order__social-link {
         margin-top: 0px;
     }
@@ -2162,6 +2519,61 @@ li .total__basket-price {
 }
 
 @media (max-width: 500px) {
+    .basket__info-total::before {
+        content: 'Итого:';
+        width: 46px;
+        height: 13px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 13px;
+        color: #646464;
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .basket__info-price::before {
+        content: 'Цена:';
+        width: 40px;
+        height: 13px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 13px;
+        color: #646464;
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .basket__title {
+        margin-bottom: 40px;
+        margin-left: 150px;
+    }
+
+    .total__basket-price {
+        right: 855px;
+    }
+
+    .basket__form {
+        margin-left: 40px;
+    }
+
+    .close {
+        left: 365px;
+    }
+
+    .basket__info li {
+        width: 405px;
+    }
+
+    .basket__info-total {
+        left: 325px;
+        top: 32px;
+    }
+
+    .basket__info-price {
+        left: 230px;
+        top: 32px;
+    }
+
     .contacts__form-title {
         padding-top: 25px;
         padding-left: 15px;
@@ -2226,6 +2638,36 @@ li .total__basket-price {
 }
 
 @media (max-width: 450px) {
+    .close {
+        top: -10px;
+        left: 335px;
+    }
+
+    .basket__info li {
+        width: 375px;
+    }
+
+    .basket__info-total {
+        left: 300px;
+    }
+
+    .basket__info-price {
+        left: 200px;
+    }
+
+    .basket__info img {
+        margin-right: 10px;
+        padding-top: 20px;
+    }
+
+    .total__basket-price {
+        right: 885px;
+    }
+
+    .basket__form {
+        margin-left: 10px;
+    }
+
     .contacts__form {
         width: 325px;
     }
@@ -2317,6 +2759,42 @@ li .total__basket-price {
 }
 
 @media (max-width: 400px) {
+    .basket__form button {
+        margin-left: 10px;
+        width: 314px;
+    }
+
+    .basket__form input {
+        margin-left: 10px;
+        max-width: 280px;
+        height: 60px;
+    }
+
+    .basket__form {
+        width: 335px;
+        margin-left: 20px;
+    }
+
+    .close {
+        left: 300px;
+    }
+
+    .basket__info li {
+        width: 345px;
+    }
+
+    .basket__info-total {
+        left: 265px;
+    }
+
+    .basket__info-price {
+        left: 175px;
+    }
+
+    .basket__info ul {
+        padding-left: 0px;
+    }
+
     .contacts__form {
         margin-left: 0px;
     }
@@ -2363,6 +2841,73 @@ li .total__basket-price {
 }
 
 @media (max-width: 360px) {
+
+    .basket__info-price {
+        left: 155px;
+    }
+
+    .basket__info-name span {
+        top: 35px;
+    }
+
+    .basket__info-name p {
+        margin-top: 16px;
+    }
+
+    .close {
+        left: 285px;
+    }
+
+    .basket__info img {
+        padding-left: 5px;
+    }
+
+    .basket__info li {
+        width: 320px;
+    }
+
+    .basket__info-name span {
+        top: 34px;
+        left: -14px;
+        font-size: 12px;
+    }
+
+    .basket__info-name p {
+        font-size: 12px;
+    }
+
+    .basket__info-price::before,
+    .basket__info-total::before {
+        font-size: 12px;
+    }
+
+    .basket__info-total {
+        font-size: 12px;
+        left: 250px;
+    }
+
+    .basket__info-price {
+        font-size: 12px;
+    }
+
+    .basket__title {
+        margin-top: 0px;
+        margin-left: 85px;
+    }
+
+    .basket__form button {
+        width: 299px;
+    }
+
+    .basket__form input {
+        max-width: 265px;
+    }
+
+    .basket__form {
+        width: 325px;
+        margin-left: 0px;
+    }
+
     .contacts__form {
         margin-left: 10px;
     }
@@ -2701,145 +3246,6 @@ li .total__basket-price {
         display: block;
     }
 
-    .close img {
-        width: 19px;
-        height: 19px;
-    }
-
-    .close {
-        display: block;
-    }
-
-    .basket .container {
-        width: 330px;
-    }
-
-    .basket__info-total::before {
-        content: 'Итого:';
-        width: 46px;
-        height: 13px;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 13px;
-        color: #646464;
-        display: block;
-        margin-bottom: 5px;
-    }
-
-    .basket__info-price::before {
-        content: 'Цена:';
-        width: 40px;
-        height: 13px;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 13px;
-        color: #646464;
-        display: block;
-        margin-bottom: 5px;
-    }
-
-    .basket__info img {
-        width: 80px;
-        height: 62px;
-        margin-right: 10px;
-        padding-left: 5px;
-        padding-top: 20px;
-    }
-
-    .trash {
-        display: none;
-    }
-
-    .basket__form .basket__form-title {
-        padding-top: 33px;
-        padding-left: 0px;
-    }
-
-    .basket__form button {
-        margin-left: 0px;
-    }
-
-    .basket__form div {
-        padding-left: 0px;
-    }
-
-    .basket__form input {
-        margin-left: 0px;
-    }
-
-    .basket__form {
-        margin-left: 0px;
-        width: 335px;
-    }
-
-    .basket__info-total {
-        margin-right: 0px;
-        width: 78px;
-        height: 13px;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 13px;
-        color: #000000;
-        position: absolute;
-        right: 15px;
-        top: 195px;
-    }
-
-    .basket__info-price {
-        width: 68px;
-        height: 13px;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 13px;
-        color: #000000;
-        margin-right: 0px;
-        position: absolute;
-        left: 175px;
-        top: 195px;
-    }
-
-    .basket__info-name {
-
-        padding-top: 20px;
-        line-height: 15px;
-        margin-right: 0px;
-        width: 148px;
-        height: 30px;
-        font-weight: 400;
-        font-size: 16px;
-        color: #000000;
-    }
-
-    .basket__info li {
-        width: 328px;
-        height: 107px;
-        background: #FAFAFA;
-        border-radius: 5px;
-    }
-
-    .basket__info-name p {
-        display: block;
-        height: 0px;
-        margin-top: 10px;
-    }
-
-    .basket__info {
-        margin-left: -45px;
-    }
-
-    .basket__title {
-        margin-top: 37px;
-        margin-left: 85px;
-    }
-
-    .basket__price {
-        display: none;
-    }
-
-    .basket__box {
-        margin-left: 0px;
-        display: block;
-    }
 
     .order__inner {
         margin-left: -170px;
@@ -2948,6 +3354,31 @@ li .total__basket-price {
 }
 
 @media (max-width: 340px) {
+    .basket__form button {
+        width: 285px;
+    }
+
+    .basket__form {
+        width: 305px;
+        height: 695px;
+    }
+
+    .basket__form input {
+        max-width: 250px;
+    }
+
+    .close {
+        left: 260px;
+    }
+
+    .basket__info li {
+        width: 295px;
+    }
+
+    .basket__info-total {
+        left: 225px;
+    }
+
     .contacts__form {
         margin-left: 0px;
     }
@@ -2981,6 +3412,34 @@ li .total__basket-price {
 }
 
 @media (max-width: 320px) {
+    .basket__title {
+        margin-left: 60px;
+    }
+
+    .basket__info li {
+        width: 285px;
+    }
+
+    .close {
+        left: 255px;
+    }
+
+    .basket__info-total {
+        left: 220px;
+    }
+
+    .basket__form {
+        width: 285px;
+    }
+
+    .basket__form button {
+        width: 269px;
+    }
+
+    .basket__form input {
+        max-width: 235px;
+    }
+
     .order__inner {
         margin-left: -190px;
     }
