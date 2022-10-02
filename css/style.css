@@ -101,8 +101,8 @@ body {
     height: 20px;
     background-color: #FF6B00;
     color: #FFFFFF;
-    top: 55px;
-    right: -7px;
+    top: -12px;
+    right: -12px;
 }
 
 .header__icon div span {
@@ -1445,6 +1445,16 @@ li .total__basket-price {
 }
 
 @media (max-width: 1200px) {
+    .service__box ul li {
+        width: 480px;
+        height: 250px;
+    }
+
+    .service__box ul {
+        flex-wrap: wrap;
+        padding-left: 230px;
+    }
+
     .contacts__info-map {
         margin-left: 20px;
     }
@@ -1570,6 +1580,18 @@ li .total__basket-price {
 }
 
 @media (max-width: 1100px) {
+    .service__inner-title {
+        margin-left: 270px;
+    }
+
+    .service__box ul li {
+        width: 515px;
+    }
+
+    .service__box ul {
+        padding-left: 170px;
+    }
+
     .contacts__form {
         margin-left: 170px;
     }
@@ -1678,6 +1700,18 @@ li .total__basket-price {
 }
 
 @media (max-width: 1000px) {
+    .service__inner-title {
+        margin-left: 220px;
+    }
+
+    .service__box ul li {
+        width: 550px;
+    }
+
+    .service__box ul {
+        padding-left: 100px;
+    }
+
     .total__basket-price {
         right: 595px;
     }
@@ -1775,6 +1809,19 @@ li .total__basket-price {
 }
 
 @media (max-width: 900px) {
+    .service__inner-title {
+        margin-left: 160px;
+    }
+
+    .service__box ul li {
+        width: 230px;
+    }
+
+    .service__box ul {
+        padding-left: 325px;
+        display: block;
+    }
+
     .total__basket-price {
         right: 645px;
     }
@@ -1954,6 +2001,14 @@ li .total__basket-price {
 }
 
 @media (max-width: 800px) {
+    .service__inner-title {
+        margin-left: 100px;
+    }
+
+    .service__box ul {
+        padding-left: 285px;
+    }
+
     .basket__product {
         margin-right: 260px;
     }
@@ -2091,6 +2146,15 @@ li .total__basket-price {
 }
 
 @media (max-width: 700px) {
+    .service__box ul {
+        padding-left: 220px;
+        display: block;
+    }
+
+    .service__inner-title {
+        margin-left: 60px;
+    }
+
     .basket__info li {
         width: 595px;
     }
@@ -2168,6 +2232,14 @@ li .total__basket-price {
 }
 
 @media (max-width: 650px) {
+    .service__box ul {
+        padding-left: 200px;
+    }
+
+    .service__inner-title {
+        margin-left: 30px;
+    }
+
     .basket__info-total {
         font-size: 14px;
     }
@@ -2250,6 +2322,15 @@ li .total__basket-price {
 }
 
 @media (max-width: 600px) {
+    .service__box ul {
+        padding-left: 170px;
+    }
+
+    .service__inner-title {
+        margin-left: 10px;
+        font-size: 36px;
+    }
+
     .basket__info li {
         width: 520px;
     }
@@ -2346,6 +2427,26 @@ li .total__basket-price {
 }
 
 @media (max-width: 550px) {
+    .service__box ul {
+        padding-left: 125px;
+    }
+
+    .service__inner-title {
+        margin-left: 30px;
+        width: 420px;
+        font-size: 36px;
+    }
+
+    .service__box ul {
+        padding-left: 145px;
+    }
+
+    .service__inner-title {
+        margin-left: 0px;
+        width: 515px;
+        font-size: 36px;
+    }
+
     .total__basket-price {
         right: 825px;
     }
@@ -2638,6 +2739,14 @@ li .total__basket-price {
 }
 
 @media (max-width: 450px) {
+    .service__box ul {
+        padding-left: 85px;
+    }
+
+    .service__inner-title {
+        width: 380px;
+    }
+
     .close {
         top: -10px;
         left: 335px;
@@ -2759,6 +2868,14 @@ li .total__basket-price {
 }
 
 @media (max-width: 400px) {
+    .service__box ul {
+        padding-left: 70px;
+    }
+
+    .service__inner-title {
+        width: 365px;
+    }
+
     .basket__form button {
         margin-left: 10px;
         width: 314px;
@@ -2841,6 +2958,21 @@ li .total__basket-price {
 }
 
 @media (max-width: 360px) {
+    .service__box ul {
+        padding-left: 40px;
+    }
+
+    .service__inner-title {
+        width: 315px;
+    }
+
+    .service__box ul {
+        padding-left: 50px;
+    }
+
+    .service__inner-title {
+        width: 330px;
+    }
 
     .basket__info-price {
         left: 155px;
@@ -3220,33 +3352,6 @@ li .total__basket-price {
         display: block;
     }
 
-    .service__box ul li {
-        list-style: none;
-        margin-bottom: 25px;
-    }
-
-    .service .container {
-        width: 320px;
-    }
-
-    .service__inner-title {
-        width: 310px;
-        height: 74px;
-        font-weight: 700;
-        font-size: 32px;
-        line-height: 37px;
-        text-align: center;
-        text-transform: uppercase;
-        color: #272639;
-        margin-left: 0px;
-        margin-bottom: 35px;
-    }
-
-    .service__box ul {
-        display: block;
-    }
-
-
     .order__inner {
         margin-left: -170px;
     }
@@ -3412,6 +3517,14 @@ li .total__basket-price {
 }
 
 @media (max-width: 320px) {
+    .service__box ul {
+        padding-left: 25px;
+    }
+
+    .service__inner-title {
+        width: 295px;
+    }
+
     .basket__title {
         margin-left: 60px;
     }
