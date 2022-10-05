@@ -17,6 +17,18 @@ $(function () {
     nextArrow: $('.next'),
     responsive: [
       {
+        breakpoint: 1301,
+        settings: {
+          slidesToShow: 5
+        }
+      },
+      {
+        breakpoint: 1201,
+        settings: {
+          slidesToShow: 4
+        }
+      },
+      {
         breakpoint: 361,
         settings: {
           slidesToShow: 2
@@ -42,9 +54,9 @@ $(function () {
     ],
   });
 
-  $('.close__burger').on('click',function () {
+  $('.close__burger').on('click', function () {
     $('.burger__menu').removeClass('active');
-})
+  })
 
 
 });
