@@ -29,6 +29,18 @@ $(function () {
         }
       },
       {
+        breakpoint: 751,
+        settings: {
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 501,
+        settings: {
+          slidesToShow: 2
+        }
+      },
+      {
         breakpoint: 361,
         settings: {
           slidesToShow: 2

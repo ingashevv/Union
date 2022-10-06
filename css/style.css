@@ -1520,14 +1520,6 @@ li .total__basket-price {
 }
 
 @media (max-width: 1200px) {
-    .suppliers__text {
-        margin-left: 225px;
-    }
-
-    .suppliers__title {
-        margin-left: 130px;
-    }
-
     .slide {
         justify-content: space-between;
     }
@@ -1765,6 +1757,14 @@ li .total__basket-price {
 }
 
 @media (max-width: 1050px) {
+    .suppliers__text {
+        margin-left: 225px;
+    }
+
+    .suppliers__title {
+        margin-left: 130px;
+    }
+
     .suppliers__slider {
         max-width: 1140px;
     }
@@ -1839,6 +1839,10 @@ li .total__basket-price {
 }
 
 @media (max-width: 1000px) {
+    .suppliers__slider {
+        max-width: 1050px;
+    }
+
     .transport__inner {
         margin-left: -160px;
     }
@@ -1929,6 +1933,18 @@ li .total__basket-price {
 }
 
 @media (max-width: 950px) {
+    .suppliers__slider {
+        max-width: 950px;
+    }
+
+    .suppliers__title {
+        margin-left: 100px;
+    }
+
+    .suppliers__text {
+        margin-left: 190px;
+    }
+
     .about__image {
         padding-left: 210px;
     }
@@ -1964,6 +1980,14 @@ li .total__basket-price {
 }
 
 @media (max-width: 900px) {
+    .suppliers__text {
+        margin-left: 160px;
+    }
+
+    .suppliers__title {
+        margin-left: 70px;
+    }
+
     .transport__inner {
         margin-left: -200px;
     }
@@ -2068,6 +2092,18 @@ li .total__basket-price {
 }
 
 @media (max-width: 850px) {
+    .suppliers__text {
+        margin-left: 120px;
+    }
+
+    .suppliers__title {
+        margin-left: 40px;
+    }
+
+    .suppliers__slider {
+        max-width: 850px;
+    }
+
     .about__image {
         padding-left: 160px;
     }
@@ -2195,6 +2231,21 @@ li .total__basket-price {
 }
 
 @media (max-width: 800px) {
+    .suppliers__slider {
+        max-width: 800px;
+    }
+
+    .suppliers__text {
+        margin-bottom: 50px;
+    }
+
+    .suppliers__title {
+        margin-left: 40px;
+        width: 700px;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
     .transport__inner {
         margin-left: -260px;
     }
@@ -2294,6 +2345,22 @@ li .total__basket-price {
 }
 
 @media (max-width: 750px) {
+    .suppliers__slider {
+        max-width: 750px;
+    }
+
+    .suppliers__text {
+        margin-left: 90px;
+    }
+
+    .suppliers__title {
+        width: 660px;
+    }
+
+    .suppliers__slider {
+        margin-left: 35px;
+    }
+
     .transport__inner {
         margin-left: -280px;
     }
@@ -2373,6 +2440,18 @@ li .total__basket-price {
 }
 
 @media (max-width: 700px) {
+    .suppliers__slider {
+        max-width: 700px;
+    }
+
+    .suppliers__text {
+        margin-left: 50px;
+    }
+
+    .suppliers__title {
+        width: 610px;
+    }
+
     .transport__inner {
         margin-left: -310px;
     }
@@ -2487,6 +2566,19 @@ li .total__basket-price {
 }
 
 @media (max-width: 650px) {
+    .suppliers__text {
+        margin-left: 65px;
+        font-size: 16px;
+    }
+
+    .suppliers__title {
+        width: 540px;
+    }
+
+    .suppliers__slider {
+        max-width: 650px;
+    }
+
     .transport__title {
         width: 595px;
     }
@@ -2597,6 +2689,19 @@ li .total__basket-price {
 }
 
 @media (max-width: 600px) {
+    .suppliers__slider {
+        max-width: 550px;
+    }
+
+    .suppliers__text {
+        margin-left: 55px;
+        font-size: 15px;
+    }
+
+    .suppliers__title {
+        width: 500px;
+    }
+
     .transport__title {
         width: 536px;
         padding-top: 50px;
@@ -2735,6 +2840,19 @@ li .total__basket-price {
 }
 
 @media (max-width: 550px) {
+    .suppliers__slider {
+        max-width: 500px;
+    }
+
+    .suppliers__text {
+        margin-left: 50px;
+        font-size: 14px;
+    }
+
+    .suppliers__title {
+        width: 450px;
+    }
+
     .transport {
         background-position: -780px;
     }
@@ -2959,6 +3077,31 @@ li .total__basket-price {
 }
 
 @media (max-width: 500px) {
+    .suppliers__text {
+        margin-left: 90px;
+        font-size: 14px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .prev {
+        left: 100px;
+    }
+
+    .next {
+        right: 100px;
+    }
+
+    .suppliers__slider {
+        max-width: 450px;
+    }
+
+    .suppliers__title {
+        width: 450px;
+        font-size: 38px;
+        margin-left: 10px;
+    }
+
     .transport__text {
         width: 410px;
     }
@@ -3106,6 +3249,16 @@ li .total__basket-price {
 }
 
 @media (max-width: 450px) {
+    .suppliers__title {
+        width: 395px;
+        margin-left: 0px;
+        font-size: 36px;
+    }
+
+    .suppliers__text {
+        margin-left: 60px;
+    }
+
     .transport__title {
         margin-bottom: 90px;
     }
@@ -3277,6 +3430,25 @@ li .total__basket-price {
 }
 
 @media (max-width: 400px) {
+
+    .next,
+    .prev {
+        top: 330px;
+    }
+
+    .suppliers__text {
+        margin-left: 35px;
+    }
+
+    .suppliers__title {
+        width: 366px;
+        margin-bottom: 100px;
+    }
+
+    .suppliers__slider {
+        max-width: 380px;
+    }
+
     .transport__text {
         width: 330px;
         font-size: 14px;
@@ -3835,6 +4007,18 @@ li .total__basket-price {
 }
 
 @media (max-width: 340px) {
+    .suppliers__slider {
+        margin-left: 0px;
+    }
+
+    .suppliers__text {
+        font-size: 16px;
+    }
+
+    .suppliers__title {
+        margin-bottom: 0px;
+    }
+
     .transport__title {
         font-size: 36px;
         width: 305px;
@@ -3912,6 +4096,15 @@ li .total__basket-price {
 }
 
 @media (max-width: 320px) {
+    .suppliers__text {
+        width: 295px;
+        ;
+    }
+
+    .suppliers__title {
+        width: 300px;
+    }
+
     .transport__title {
         font-size: 36px;
         width: 295px;
