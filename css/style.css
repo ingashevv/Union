@@ -5,6 +5,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 .header {
@@ -144,6 +145,10 @@ body {
     display: flex;
     margin-top: 60px;
     padding-left: 20px;
+}
+
+input {
+    outline: none;
 }
 
 .form-list input {
@@ -606,7 +611,7 @@ body {
     opacity: 0.9;
     overflow: hidden;
     margin-left: -8px;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 }
 
 .header__order-inner {
@@ -621,6 +626,7 @@ body {
 
 .order {
     margin-bottom: 150px;
+    margin-top: 150px;
 }
 
 .order__menu::before {
@@ -1452,6 +1458,57 @@ li .total__basket-price {
 }
 
 @media (max-width: 1250px) {
+    .header__content-title {
+        margin-left: 10px;
+    }
+
+    .header__logo {
+        margin-left: 10px;
+    }
+
+    .header__first::before {
+        width: 1150px;
+        left: 5px;
+    }
+
+    .header__menu ul {
+        margin-left: 170px;
+    }
+
+    .header {
+        height: 1290px;
+    }
+
+    .form-content {
+        margin-top: 15px;
+    }
+
+    .header__content-form form {
+        display: block;
+        padding-left: 10px;
+    }
+
+    .header__content-form form button {
+        width: 97%;
+    }
+
+    .form-list input,
+    .form-content input {
+        width: 95%;
+    }
+
+    .button-down {
+        display: none;
+    }
+
+    .panel__box::before {
+        left: -5px;
+    }
+
+    .header {
+        margin-left: -8px;
+    }
+
     .about__image {
         padding-left: 350px;
         padding-bottom: 40px;
@@ -1519,7 +1576,26 @@ li .total__basket-price {
     }
 }
 
+@media (max-width: 1220px) {
+    .header__menu ul {
+        margin-left: 180px;
+    }
+}
+
 @media (max-width: 1200px) {
+    .header__content-form form button {
+        width: 93%;
+    }
+
+    .form-list input,
+    .form-content input {
+        width: 91%;
+    }
+
+    .header__first::before {
+        width: 1100px;
+    }
+
     .slide {
         justify-content: space-between;
     }
@@ -1621,6 +1697,16 @@ li .total__basket-price {
 }
 
 @media (max-width: 1150px) {
+
+    .form-list input,
+    .form-content input {
+        width: 88%;
+    }
+
+    .header__content-form form button {
+        width: 90%;
+    }
+
     .about__image {
         padding-left: 290px;
     }
@@ -1686,7 +1772,46 @@ li .total__basket-price {
     }
 }
 
+@media (max-width: 1120px) {
+    .header__menu ul {
+        margin-left: 110px;
+    }
+
+    .panel__box::before {
+        left: 10px;
+        width: 295px;
+    }
+
+    .panel__box+.panel__box {
+        margin-left: 115px;
+    }
+
+    .form-list input,
+    .form-content input {
+        width: 87%;
+    }
+
+    .header__content-form form button {
+        width: 89%;
+    }
+}
+
 @media (max-width: 1100px) {
+
+    .form-list input,
+    .form-content input {
+        width: 85%;
+    }
+
+    .panel__box::before {
+        left: 10px;
+        width: 260px;
+    }
+
+    .header__content-form form button {
+        width: 87%;
+    }
+
     .transport__inner {
         margin-left: -110px;
     }
@@ -1756,7 +1881,39 @@ li .total__basket-price {
     }
 }
 
+@media (max-width: 1080px) {
+    .header__icon {
+        margin-left: 80px;
+    }
+
+    .form-list input,
+    .form-content input {
+        width: 83%;
+    }
+
+    .header__content-form form button {
+        width: 85%;
+    }
+
+    .panel__box+.panel__box {
+        margin-left: 95px;
+    }
+}
+
 @media (max-width: 1050px) {
+    .panel__box+.panel__box {
+        margin-left: 80px;
+    }
+
+    .header__content-form form button {
+        width: 83%;
+    }
+
+    .form-list input,
+    .form-content input {
+        width: 81%;
+    }
+
     .suppliers__text {
         margin-left: 225px;
     }
@@ -1838,7 +1995,48 @@ li .total__basket-price {
     }
 }
 
+@media (max-width: 1025px) {
+    .panel__box+.panel__box {
+        margin-left: 65px;
+    }
+
+    .header__icon {
+        margin-left: 65px;
+    }
+
+    .form-list input,
+    .form-content input {
+        width: 79%;
+    }
+
+    .header__content-form form button {
+        width: 81%;
+    }
+}
+
 @media (max-width: 1000px) {
+    .header__first::before {
+        width: 890px;
+        left: 0;
+    }
+
+    .header__first {
+        margin-left: 40px;
+    }
+
+    .panel__box+.panel__box {
+        margin-left: 45px;
+    }
+
+    .header__content-form form button {
+        width: 76%;
+    }
+
+    .form-list input,
+    .form-content input {
+        width: 74%;
+    }
+
     .suppliers__slider {
         max-width: 1050px;
     }
@@ -1933,6 +2131,24 @@ li .total__basket-price {
 }
 
 @media (max-width: 950px) {
+    .panel__box+.panel__box {
+        margin-left: 35px;
+    }
+
+    .header__content-form form button {
+        width: 73%;
+    }
+
+    .form-list input,
+    .form-content input {
+        width: 71%;
+    }
+
+    .header__first::before {
+        width: 840px;
+        left: 0;
+    }
+
     .suppliers__slider {
         max-width: 950px;
     }
@@ -1980,6 +2196,19 @@ li .total__basket-price {
 }
 
 @media (max-width: 900px) {
+    .panel__box::before {
+        width: 240px;
+    }
+
+    .header__content-form form button {
+        width: 71%;
+    }
+
+    .form-list input,
+    .form-content input {
+        width: 69%;
+    }
+
     .suppliers__text {
         margin-left: 160px;
     }
@@ -2091,7 +2320,47 @@ li .total__basket-price {
     }
 }
 
+@media (max-width: 880px) {
+
+    .form-list input,
+    .form-content input {
+        width: 66%;
+    }
+
+    .header__content-form form button {
+        width: 68%;
+    }
+
+    .panel__box+.panel__box {
+        margin-left: 15px;
+    }
+}
+
 @media (max-width: 850px) {
+    .header__content-form form button {
+        width: 66%;
+    }
+
+    .form-list input,
+    .form-content input {
+        width: 64%;
+    }
+
+    .header__content-panel {
+        margin-left: 280px;
+        margin-bottom: 60px;
+        display: block;
+    }
+
+    .panel__box+.panel__box {
+        margin-left: 0px;
+        margin-top: 100px;
+    }
+
+    .header {
+        height: 100%;
+    }
+
     .suppliers__text {
         margin-left: 120px;
     }
@@ -2220,6 +2489,19 @@ li .total__basket-price {
 }
 
 @media (max-width: 825px) {
+    .header__content-panel {
+        margin-left: 270px;
+    }
+
+    .header__content-form form button {
+        width: 64%;
+    }
+
+    .form-list input,
+    .form-content input {
+        width: 62%;
+    }
+
     .about__info-text {
         width: 700px;
     }
