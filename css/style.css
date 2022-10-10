@@ -2513,6 +2513,27 @@ li .total__basket-price {
 }
 
 @media (max-width: 800px) {
+    .header__first::before {
+        width: 720px;
+    }
+
+    .header__first {
+        margin-left: 20px;
+    }
+
+    .header__content-panel {
+        margin-left: 250px;
+    }
+
+    .header__content-form form button {
+        width: 62%;
+    }
+
+    .form-list input,
+    .form-content input {
+        width: 60%;
+    }
+
     .suppliers__slider {
         max-width: 800px;
     }
@@ -2626,7 +2647,55 @@ li .total__basket-price {
     }
 }
 
+@media (max-width: 780px) {
+    .header__first::before {
+        width: 700px;
+    }
+
+    .header__icon {
+        margin-left: 165px;
+    }
+
+    .header__content-form form button {
+        width: 59%;
+    }
+
+    .header__first {
+        margin-left: 5px;
+    }
+
+    .form-list input,
+    .form-content input {
+        width: 57%;
+    }
+}
+
 @media (max-width: 750px) {
+    .header__first {
+        margin-left: 20px;
+    }
+
+    .header__first::before {
+        width: 670px;
+    }
+
+    .header__content-panel {
+        margin-left: 220px;
+    }
+
+    .header__content-form form button {
+        width: 57%;
+    }
+
+    .form-list input,
+    .form-content input {
+        width: 55%;
+    }
+
+    .header__logo {
+        margin-left: 150px;
+    }
+
     .suppliers__slider {
         max-width: 750px;
     }
@@ -2715,13 +2784,58 @@ li .total__basket-price {
     .header__icon {
         margin-left: 150px;
     }
+}
+
+@media (max-width: 720px) {
+    .header__first::before {
+        width: 630px;
+    }
+
+    .header__icon {
+        margin-left: 140px;
+    }
+
+    .header__content-form form button {
+        width: 55%;
+    }
+
+    .header__first::before {
+        width: 650px;
+    }
+
+    .form-list input,
+    .form-content input {
+        width: 53%;
+    }
 
     .header__logo {
-        margin-left: 125px;
+        margin-left: 140px;
     }
 }
 
 @media (max-width: 700px) {
+    .header__content-panel {
+        margin-left: 200px;
+    }
+
+    .header__content-form form button {
+        width: 53%;
+    }
+
+    .form-list input,
+    .form-content input {
+        width: 51%;
+    }
+
+    .header__content-title {
+        width: 650px;
+        font-size: 38px;
+    }
+
+    .header__first::before {
+        width: 610px;
+    }
+
     .suppliers__slider {
         max-width: 700px;
     }
@@ -2843,7 +2957,35 @@ li .total__basket-price {
     }
 
     .header__logo {
-        margin-left: 100px;
+        margin-left: 130px;
+    }
+}
+
+@media (max-width: 670px) {
+    .header__first::before {
+        width: 590px;
+    }
+
+    .header__content-title span {
+        font-size: 36px;
+    }
+
+    .header__content-title {
+        width: 600px;
+        font-size: 34px;
+    }
+
+    .header__content-form form button {
+        width: 51%;
+    }
+
+    .header__logo {
+        margin-left: 110px;
+    }
+
+    .form-list input,
+    .form-content input {
+        width: 49%;
     }
 }
 
@@ -2966,7 +3108,47 @@ li .total__basket-price {
     }
 
     .header__logo {
-        margin-left: 70px;
+        margin-left: 110px;
+    }
+
+    .header__first::before {
+        width: 560px;
+    }
+
+    .form-list input,
+    .form-content input {
+        width: 47%;
+    }
+
+    .header__content-form form button {
+        width: 49%;
+    }
+
+    .header__content-panel {
+        margin-left: 180px;
+    }
+}
+
+@media (max-width: 620px) {
+    .header__first::before {
+        width: 540px;
+    }
+
+    .header__content-panel {
+        margin-left: 160px;
+    }
+
+    .header__logo {
+        margin-left: 100px;
+    }
+
+    .form-list input,
+    .form-content input {
+        width: 45%;
+    }
+
+    .header__content-form form button {
+        width: 47%;
     }
 }
 
@@ -3117,11 +3299,77 @@ li .total__basket-price {
     }
 
     .header__logo {
-        margin-left: 30px;
+        margin-left: 70px;
+    }
+
+    .form-list input,
+    .form-content input {
+        width: 43%;
+    }
+
+    .header__content-form form button {
+        width: 45%;
+    }
+
+    .header__content-panel {
+        margin-left: 150px;
+    }
+
+    .header__content-title {
+        width: 550px;
+        font-size: 32px;
+    }
+
+    .header__first::before {
+        width: 520px;
+    }
+}
+
+@media (max-width: 580px) {
+    .header__content-title {
+        width: 550px;
+        font-size: 28px;
+        height: 160px
+    }
+
+    .header__icon {
+        margin-left: 85px;
+    }
+
+    .header__first::before {
+        width: 500px;
+    }
+
+    .form-list input,
+    .form-content input {
+        width: 41%;
+    }
+
+    .header__content-form form button {
+        width: 43%;
+    }
+
+    .header__content-panel {
+        margin-left: 140px;
+    }
+
+    .header__content-title span {
+        font-size: 32px;
+        line-height: 44px;
     }
 }
 
 @media (max-width: 550px) {
+
+    .header__icon {
+        margin-top: 43px;
+    }
+
+    .header__logo {
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+
     .suppliers__slider {
         max-width: 500px;
     }
@@ -3274,23 +3522,68 @@ li .total__basket-price {
         margin-left: 180px;
     }
 
-    .header__icon {
-        margin-left: 70px;
-        margin-top: 33px;
-    }
-
-    .header__logo {
-        margin-left: 20px;
-        margin-top: 20px;
-    }
-
     .header__order {
         height: 90px;
     }
 
+    .header__first::before {
+        width: 480px;
+        top: 100px;
+    }
+
+    .header__content-title {
+        margin-top: 60px;
+    }
+
+    .form-list input,
+    .form-content input {
+        width: 39%;
+    }
+
+    .header__content-form form button {
+        width: 41%;
+    }
+
+    .header__content-panel {
+        margin-left: 130px;
+    }
+
+    .header__content-title {
+        width: 480px;
+        font-size: 24px;
+    }
+
+    .header__content-title span {
+        font-size: 24px;
+        line-height: 44px;
+    }
+
+    .header__content-form form {
+        margin-top: 20px;
+    }
 }
 
 @media (max-width: 530px) {
+    .header__content-form form button {
+        width: 39%;
+    }
+
+    .header__content-panel {
+        margin-left: 115px;
+    }
+
+    .header__icon {
+        margin-left: 65px;
+    }
+
+    .header__first::before {
+        width: 450px;
+    }
+
+    .form-list input,
+    .form-content input {
+        width: 37%;
+    }
 
     .about__image img {
         width: 418px;
@@ -3522,11 +3815,63 @@ li .total__basket-price {
     }
 
     .header__logo {
-        margin-left: 0px;
+        margin-left: 35px;
+    }
+
+    .header__first::before {
+        width: 430px;
+    }
+
+    .form-list input,
+    .form-content input {
+        width: 35%;
+    }
+
+    .header__content-form form button {
+        width: 37%;
+    }
+
+    .header__content-panel {
+        margin-left: 100px;
     }
 
     .header__icon {
         margin-left: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header__first {
+        margin-left: 10px;
+    }
+
+    .header__logo {
+        font-size: 34px;
+    }
+
+    .header__content-title {
+        width: 420px;
+    }
+
+    .header__icon {
+        margin-left: 40px;
+    }
+
+    .header__first::before {
+        width: 420px;
+    }
+
+    .form-list input,
+    .form-content input {
+        width: 33%;
+    }
+
+    .header__content-form form button {
+        width: 35%;
+    }
+
+    .header__content-panel {
+        margin-left: 90px;
     }
 }
 
@@ -3697,9 +4042,26 @@ li .total__basket-price {
     }
 
     .header__logo {
-        margin-left: 0px;
+        margin-left: 20px;
         font-size: 30px;
-        margin-top: 24px;
+        margin-top: 33px;
+    }
+
+    .form-list input,
+    .form-content input {
+        width: 31%;
+    }
+
+    .header__content-form form button {
+        width: 33%;
+    }
+
+    .header__first::before {
+        width: 390px;
+    }
+
+    .header__content-panel {
+        margin-left: 80px;
     }
 
     .header__order .media__menu {
@@ -3711,7 +4073,81 @@ li .total__basket-price {
     }
 }
 
+@media (max-width: 430px) {
+
+    .header__first {
+        margin-left: 5px;
+    }
+
+    .form-list input,
+    .form-content input {
+        width: 28%;
+    }
+
+    .header__content-form form button {
+        width: 30%;
+    }
+
+    .header__content-title {
+        width: 370px;
+        font-size: 22px;
+    }
+
+    .header__logo {
+        margin-left: 10px;
+        font-size: 26px;
+        margin-top: 33px;
+    }
+
+    .header__icon {
+        margin-left: 15px;
+    }
+
+    .header__first::before {
+        width: 370px;
+    }
+
+    .header__content-panel {
+        margin-left: 65px;
+    }
+}
+
 @media (max-width: 400px) {
+    .header__logo {
+        margin-left: 0px;
+    }
+
+    .header__content-title span {
+        font-size: 20px;
+        line-height: 30px;
+        height: 140px;
+    }
+
+    .header__first::before {
+        width: 340px;
+    }
+
+    .form-list input,
+    .form-content input {
+        width: 26%;
+    }
+
+    .header__content-form form button {
+        width: 28%;
+    }
+
+    .header__content-panel {
+        margin-left: 50px;
+    }
+
+    .header__content-title {
+        width: 340px;
+        font-size: 20px;
+    }
+
+    .header__content-form form {
+        margin-top: 0px;
+    }
 
     .next,
     .prev {
@@ -3850,7 +4286,69 @@ li .total__basket-price {
     }
 }
 
+@media (max-width: 380px) {
+
+    .form-list input,
+    .form-content input {
+        width: 25%;
+    }
+
+    .header__content-form form button {
+        width: 27%;
+    }
+
+    .header__content-panel {
+        margin-left: 35px;
+    }
+
+    .header__first::before {
+        width: 480px;
+        top: 90px;
+    }
+
+    .header__logo {
+        width: 255px;
+    }
+
+    .header__first::before {
+        width: 325px;
+    }
+
+    .header__content-title {
+        margin-top: 40px;
+    }
+}
+
 @media (max-width: 360px) {
+    .header__content-title {
+        width: 300px;
+        font-size: 18px;
+    }
+
+    .header__logo {
+        font-size: 24px;
+        width: 235px;
+    }
+
+    .form-list input,
+    .form-content input {
+        width: 82%;
+    }
+
+    .header__content-form form button {
+        width: 88%;
+    }
+
+    .header__content-panel {
+        margin-top: 45px !important;
+        margin-left: 25px !important;
+    }
+
+    .header__content-title {
+        margin-top: 40px;
+        height: 120px;
+    }
+
     .transport__text {
         width: 300px;
         font-size: 14px;
@@ -4087,11 +4585,6 @@ li .total__basket-price {
         display: none;
     }
 
-    .header__first .media__menu {
-        margin-left: 25px;
-
-    }
-
     .panel__box::before {
         display: none;
     }
@@ -4112,74 +4605,6 @@ li .total__basket-price {
 
     .header__content-form form {
         margin-top: 30px;
-    }
-
-    .form-list span,
-    .form-content span {
-        margin-left: 5px;
-        margin-top: 10px;
-    }
-
-    .form-content input,
-    .form-list input {
-        width: 310px;
-        margin-left: 3px;
-    }
-
-    .header__content-form form button {
-        width: 330px;
-        margin-left: 3px;
-    }
-
-    .header__content-title span {
-        font-weight: 700;
-        font-size: 33px;
-        line-height: 32px;
-        align-items: center;
-    }
-
-    .header__content-title {
-        width: 331px;
-        height: 264px;
-        font-weight: 400;
-        font-size: 32px;
-        line-height: 33px;
-        text-align: center;
-        color: #FFFFFF;
-        margin-top: 20px;
-        margin-left: 23px;
-    }
-
-    .header__first .header__logo {
-        margin-left: 45px;
-        margin-right: 45px;
-        font-weight: 400;
-        font-size: 26px;
-        text-align: center;
-        color: #FFFFFF;
-        width: 187px;
-
-    }
-
-    .header {
-        width: 360px;
-        height: 1300px;
-    }
-
-    .header .container {
-        margin: 0;
-    }
-
-    .header__content-panel {
-        display: block;
-    }
-
-    .header__content-form form {
-        display: block;
-    }
-
-    .header__menu {
-        display: none;
     }
 
     .order__inner {
@@ -4249,46 +4674,15 @@ li .total__basket-price {
     .footer__contacts-email {
         font-size: 12px;
     }
-
-    .header__order hr {
-        display: none;
-    }
-
-    .header__icon {
-        margin-top: 30px;
-        margin-left: 0;
-    }
-
-    .header__logo {
-        font-weight: 400;
-        font-size: 26px;
-        text-align: center;
-        color: #FFFFFF;
-        margin-top: 24px;
-        width: 179px;
-        height: 30px;
-        margin-left: 41px;
-        margin-right: 37px;
-    }
-
-    .header__order {
-        width: 360px;
-        height: 78px;
-        margin-bottom: 50px;
-    }
-
-
-    .header__menu {
-        display: none;
-    }
-
-    .header__icon div {
-        top: 20px;
-        right: -5px;
-    }
 }
 
 @media (max-width: 340px) {
+    .header__logo {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 220px;
+    }
+
     .suppliers__slider {
         margin-left: 0px;
     }
@@ -4371,13 +4765,39 @@ li .total__basket-price {
         margin-left: 25px;
     }
 
-    .header__logo {
-        margin-left: 25px;
-        margin-right: 25px;
+    .form-list input,
+    .form-content input {
+        width: 77%;
+    }
+
+    .header__content-form form button {
+        width: 84%;
+    }
+
+    .header__content-panel {
+        margin-left: 15px !important;
+    }
+
+    .header__content-title span {
+        font-size: 18px;
     }
 }
 
 @media (max-width: 320px) {
+
+    .form-list input,
+    .form-content input {
+        width: 76%;
+    }
+
+    .header__content-form form button {
+        width: 82%;
+    }
+
+    .header__icon {
+        margin-top: 38px;
+    }
+
     .suppliers__text {
         width: 295px;
         ;
