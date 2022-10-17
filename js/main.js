@@ -66,6 +66,10 @@ $(function () {
     ],
   });
 
+
+
+
+
   $('.close__burger').on('click', function () {
     $('.burger__menu').removeClass('active');
   })

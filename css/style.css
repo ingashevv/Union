@@ -6,6 +6,11 @@ body {
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
     overflow-x: hidden;
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
 }
 
 .header {
@@ -612,6 +617,7 @@ input {
     overflow: hidden;
     margin-left: -8px;
     margin-bottom: 50px;
+    position: relative;
 }
 
 .header__order-inner {
@@ -903,7 +909,7 @@ input {
     font-size: 42px;
     line-height: 40px;
     color: #000000;
-    margin-top: -100px;
+    margin-top: 50px;
 }
 
 .basket__product {
@@ -1326,7 +1332,7 @@ li .total__basket-price {
 
 .burger__menu.active {
     display: block;
-    position: absolute;
+    position: fixed;
 }
 
 .burger__menu img {
@@ -1374,8 +1380,47 @@ li .total__basket-price {
     margin-top: 20px;
 }
 
+textarea {
+    width: 300px;
+    height: 165px;
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 34px;
+    padding-top: 25px;
+    resize: none;
+}
+
+textarea::placeholder {
+    width: 127px;
+    height: 13px;
+    font-size: 14px;
+    line-height: 13px;
+    color: #A5A5A5;
+}
+
+select {
+    width: 380px;
+    height: 66px;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 26px;
+    margin-right: 10px;
+}
+
+option {
+    width: 380px;
+    height: 66px;
+    font-size: 16px;
+    line-height: 43px;
+}
 
 @media (max-width: 1700px) {
+    .button-down {
+        display: none;
+    }
+
     .next {
         background: #3A394A;
         position: absolute;
